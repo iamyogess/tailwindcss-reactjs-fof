@@ -6,6 +6,7 @@ import Activities from "./components/Activities";
 import Bookings from "./components/Bookings";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Bookings />
       <Gallery />
       <Contact />
+      <Footer />
     </>
   );
 };
