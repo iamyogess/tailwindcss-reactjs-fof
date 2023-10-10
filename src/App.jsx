@@ -7,6 +7,7 @@ import Bookings from "./components/Bookings";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Fertilizers from "./components/Fertilizers";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <NavBar />
       <Hero />
       <Activities />
-      <Bookings />
+      {/* <Bookings /> */}
+      <Fertilizers/>
       <Gallery />
       <Contact />
       <Footer />

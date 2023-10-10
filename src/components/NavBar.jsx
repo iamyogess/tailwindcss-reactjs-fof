@@ -6,7 +6,6 @@ import {
   FaGooglePlusG,
   FaInstagram,
 } from "react-icons/fa";
-import { BsChatSquareDots } from "react-icons/bs";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -24,7 +23,10 @@ const NavBar = () => {
           <a href="#gallery">Gallery</a>
         </li>
         <li>
-          <a href="#deals">Deals</a>
+          <a href="#fertilizer">Fertilizers</a>
+        </li>
+        <li>
+          <a href="#prices">Prices</a>
         </li>
         <li>
           <a href="#contacts">Contacts</a>
@@ -57,10 +59,13 @@ const NavBar = () => {
             <a href="#gallery">Gallery</a>
           </li>
           <li className="text-2xl py-8">
-            <a href="#deals">Deals</a>
+            <a href="#fertilizer">Fertilizers</a>
           </li>
           <li className="text-2xl py-8">
             <a href="#contacts">Contacts</a>
+          </li>
+          <li className="text-2xl py-8">
+            <a href="#prices">Prices</a>
           </li>
         </ul>
       </div>

@@ -28,10 +28,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@emailjs/browser", "npm:3.11.0"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@vitejs/plugin-react-swc", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:3.3.2"],\
             ["autoprefixer", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:10.4.14"],\
+            ["emailjs-com", "npm:3.2.0"],\
             ["eslint", "npm:8.46.0"],\
             ["eslint-plugin-react", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:7.33.1"],\
             ["eslint-plugin-react-hooks", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.6.0"],\
@@ -40,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:18.2.0"],\
             ["react-icons", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.10.1"],\
+            ["react-router-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:6.16.0"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["vite", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.4.8"]\
           ],\
@@ -60,6 +63,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-bdc35758b5.zip/node_modules/@alloc/quick-lru/",\
           "packageDependencies": [\
             ["@alloc/quick-lru", "npm:5.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emailjs/browser", [\
+        ["npm:3.11.0", {\
+          "packageLocation": "./.yarn/cache/@emailjs-browser-npm-3.11.0-3a580335bf-fdeb780f49.zip/node_modules/@emailjs/browser/",\
+          "packageDependencies": [\
+            ["@emailjs/browser", "npm:3.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -478,6 +490,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-6ad6a00fc4.zip/node_modules/@pkgjs/parseargs/",\
           "packageDependencies": [\
             ["@pkgjs/parseargs", "npm:0.11.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@remix-run/router", [\
+        ["npm:1.9.0", {\
+          "packageLocation": "./.yarn/cache/@remix-run-router-npm-1.9.0-5b4ae8d56b-0537b0ff29.zip/node_modules/@remix-run/router/",\
+          "packageDependencies": [\
+            ["@remix-run/router", "npm:1.9.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1320,6 +1341,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.485-155dd2e3f6-6f9efc92c1.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
             ["electron-to-chromium", "npm:1.4.485"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["emailjs-com", [\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/emailjs-com-npm-3.2.0-ba001a08e8-c6d0a1d607.zip/node_modules/emailjs-com/",\
+          "packageDependencies": [\
+            ["emailjs-com", "npm:3.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3409,6 +3439,57 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-router", [\
+        ["npm:6.16.0", {\
+          "packageLocation": "./.yarn/cache/react-router-npm-6.16.0-611c42fc54-b31c187e3f.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "npm:6.16.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2612c9fb7bdf42bf4858478ea7d37f354e33456ff386e5e97a30ece80f63f429abb99ccecd0dbcdc00d93e8e17369d322506b1622c9c22d1ca82baa3331c89f0#npm:6.16.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-virtual-d1259b53a0/0/cache/react-router-npm-6.16.0-611c42fc54-b31c187e3f.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "virtual:2612c9fb7bdf42bf4858478ea7d37f354e33456ff386e5e97a30ece80f63f429abb99ccecd0dbcdc00d93e8e17369d322506b1622c9c22d1ca82baa3331c89f0#npm:6.16.0"],\
+            ["@remix-run/router", "npm:1.9.0"],\
+            ["@types/react", "npm:18.2.18"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-router-dom", [\
+        ["npm:6.16.0", {\
+          "packageLocation": "./.yarn/cache/react-router-dom-npm-6.16.0-2abe83c2e4-18b398924b.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "npm:6.16.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:6.16.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-2612c9fb7b/0/cache/react-router-dom-npm-6.16.0-2abe83c2e4-18b398924b.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:6.16.0"],\
+            ["@remix-run/router", "npm:1.9.0"],\
+            ["@types/react", "npm:18.2.18"],\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:18.2.0"],\
+            ["react-router", "virtual:2612c9fb7bdf42bf4858478ea7d37f354e33456ff386e5e97a30ece80f63f429abb99ccecd0dbcdc00d93e8e17369d322506b1622c9c22d1ca82baa3331c89f0#npm:6.16.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["read-cache", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",\
@@ -4149,10 +4230,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["weekway", "workspace:."],\
+            ["@emailjs/browser", "npm:3.11.0"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@vitejs/plugin-react-swc", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:3.3.2"],\
             ["autoprefixer", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:10.4.14"],\
+            ["emailjs-com", "npm:3.2.0"],\
             ["eslint", "npm:8.46.0"],\
             ["eslint-plugin-react", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:7.33.1"],\
             ["eslint-plugin-react-hooks", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.6.0"],\
@@ -4161,6 +4244,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:18.2.0"],\
             ["react-icons", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.10.1"],\
+            ["react-router-dom", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:6.16.0"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["vite", "virtual:bebd6fb6fe5744c879e2dd50fab37aae50c330a236c1294b108ad4916df6dd1632a87a51c830a46f9d98dd733b5cbb277a34d8623afe3ec06b1354cd672b132e#npm:4.4.8"]\
           ],\
